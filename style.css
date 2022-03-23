@@ -1,0 +1,14 @@
+body {
+  background-color: #a7dbe3;
+  color: white;
+  font-size: 21px;
+}
+
+.box {
+  background-image: src(./math.png);
+  padding: 800px 800px;
+  margin: 100px;
+  
+  background-size: contain;
+  background-position: center;
+}
