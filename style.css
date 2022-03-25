@@ -1,14 +1,16 @@
+* {
+    box-sizing: border-box;
+} 
+
 body {
-  background-color: #a7dbe3;
-  color: white;
-  font-size: 21px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
 }
 
-.box {
-  background-image: src(./math.png);
-  padding: 800px 800px;
-  margin: 100px;
-  
-  background-size: contain;
-  background-position: center;
+.button {
+    position: absolute;
+    top:50%;
+    background-color:#0a0a23;
 }
